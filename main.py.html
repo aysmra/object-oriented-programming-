@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #080808;}
+.s1 { color: #1750eb;}
+.s2 { color: #0033b3;}
+.s3 { color: #8c8c8c; font-style: italic;}
+.s4 { color: #008080; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0">chart = [</span>
+    <span class="s0">[</span><span class="s1">7</span><span class="s0">,</span><span class="s1">8</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">4</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">1</span><span class="s0">,</span><span class="s1">2</span><span class="s0">,</span><span class="s1">0</span><span class="s0">],</span>
+    <span class="s0">[</span><span class="s1">6</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">7</span><span class="s0">,</span><span class="s1">5</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">9</span><span class="s0">],</span>
+    <span class="s0">[</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">6</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">1</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">7</span><span class="s0">,</span><span class="s1">8</span><span class="s0">],</span>
+    <span class="s0">[</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">7</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">4</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">2</span><span class="s0">,</span><span class="s1">6</span><span class="s0">,</span><span class="s1">0</span><span class="s0">],</span>
+    <span class="s0">[</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">1</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">5</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">9</span><span class="s0">,</span><span class="s1">3</span><span class="s0">,</span><span class="s1">0</span><span class="s0">],</span>
+    <span class="s0">[</span><span class="s1">9</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">4</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">6</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">5</span><span class="s0">],</span>
+    <span class="s0">[</span><span class="s1">0</span><span class="s0">,</span><span class="s1">7</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">3</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">1</span><span class="s0">,</span><span class="s1">2</span><span class="s0">],</span>
+    <span class="s0">[</span><span class="s1">1</span><span class="s0">,</span><span class="s1">2</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">7</span><span class="s0">,</span><span class="s1">4</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">],</span>
+    <span class="s0">[</span><span class="s1">0</span><span class="s0">,</span><span class="s1">4</span><span class="s0">,</span><span class="s1">9</span><span class="s0">,</span><span class="s1">2</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">6</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">0</span><span class="s0">,</span><span class="s1">7</span><span class="s0">]</span>
+<span class="s0">]</span>
+
+<span class="s2">def </span><span class="s0">solve(ch):</span>
+    <span class="s0">find = find_empty(ch)</span>
+    <span class="s2">if not </span><span class="s0">find:</span>
+        <span class="s2">return True</span>
+    <span class="s2">else</span><span class="s0">:</span>
+        <span class="s0">row, col = find</span>
+
+    <span class="s2">for </span><span class="s0">i </span><span class="s2">in </span><span class="s0">range(</span><span class="s1">1</span><span class="s0">,</span><span class="s1">10</span><span class="s0">):</span>
+        <span class="s2">if </span><span class="s0">valid(ch, i, (row, col)):</span>
+            <span class="s0">ch[row][col] = i</span>
+
+            <span class="s2">if </span><span class="s0">solve(ch):</span>
+                <span class="s2">return True</span>
+
+            <span class="s0">ch[row][col] = </span><span class="s1">0</span>
+
+    <span class="s2">return False</span>
+
+
+<span class="s2">def </span><span class="s0">valid(ch, num, pos):</span>
+    <span class="s3">#check row</span>
+    <span class="s2">for </span><span class="s0">i </span><span class="s2">in </span><span class="s0">range(len(ch[</span><span class="s1">0</span><span class="s0">])):</span>
+        <span class="s2">if </span><span class="s0">ch[pos[</span><span class="s1">0</span><span class="s0">]][i] == num </span><span class="s2">and </span><span class="s0">pos[</span><span class="s1">1</span><span class="s0">] != i:</span>
+            <span class="s2">return False</span>
+
+    <span class="s3">#check column</span>
+    <span class="s2">for </span><span class="s0">i </span><span class="s2">in </span><span class="s0">range(len(ch)):</span>
+        <span class="s2">if </span><span class="s0">ch[i][pos[</span><span class="s1">1</span><span class="s0">]] == num </span><span class="s2">and </span><span class="s0">pos[</span><span class="s1">0</span><span class="s0">] != i:</span>
+            <span class="s2">return False</span>
+
+    <span class="s3">#check box</span>
+    <span class="s0">box_x = pos[</span><span class="s1">1</span><span class="s0">] // </span><span class="s1">3</span>
+    <span class="s0">box_y = pos[</span><span class="s1">0</span><span class="s0">] // </span><span class="s1">3</span>
+
+    <span class="s2">for </span><span class="s0">i </span><span class="s2">in </span><span class="s0">range(box_y*</span><span class="s1">3</span><span class="s0">, box_y*</span><span class="s1">3 </span><span class="s0">+ </span><span class="s1">3</span><span class="s0">):</span>
+        <span class="s2">for </span><span class="s0">j </span><span class="s2">in </span><span class="s0">range(box_x * </span><span class="s1">3</span><span class="s0">, box_x*</span><span class="s1">3 </span><span class="s0">+ </span><span class="s1">3</span><span class="s0">):</span>
+            <span class="s2">if </span><span class="s0">ch[i][j] == num </span><span class="s2">and </span><span class="s0">(i,j) != pos:</span>
+                <span class="s2">return False</span>
+
+    <span class="s2">return True</span>
+
+
+
+<span class="s2">def </span><span class="s0">print_chart(ch):</span>
+
+    <span class="s2">for </span><span class="s0">i </span><span class="s2">in </span><span class="s0">range(len(ch)):</span>
+        <span class="s2">if </span><span class="s0">i % </span><span class="s1">3 </span><span class="s0">== </span><span class="s1">0 </span><span class="s2">and </span><span class="s0">i != </span><span class="s1">0</span><span class="s0">:</span>
+            <span class="s0">print(</span><span class="s4">&quot;- - - - - - - - - - - - -&quot;</span><span class="s0">)</span>
+
+        <span class="s2">for </span><span class="s0">j </span><span class="s2">in </span><span class="s0">range(len(ch[</span><span class="s1">0</span><span class="s0">])):</span>
+            <span class="s2">if </span><span class="s0">j % </span><span class="s1">3 </span><span class="s0">== </span><span class="s1">0 </span><span class="s2">and </span><span class="s0">j != </span><span class="s1">0</span><span class="s0">:</span>
+                <span class="s0">print(</span><span class="s4">&quot; | &quot;</span><span class="s0">, end=</span><span class="s4">&quot;&quot;</span><span class="s0">)</span>
+
+            <span class="s2">if </span><span class="s0">j == </span><span class="s1">8</span><span class="s0">:</span>
+                    <span class="s0">print(ch[i][j])</span>
+            <span class="s2">else</span><span class="s0">:</span>
+                    <span class="s0">print(str(ch[i][j] )+ </span><span class="s4">&quot; &quot;</span><span class="s0">, end=</span><span class="s4">&quot;&quot;</span><span class="s0">)</span>
+
+<span class="s2">def </span><span class="s0">find_empty(ch):</span>
+    <span class="s2">for </span><span class="s0">i </span><span class="s2">in </span><span class="s0">range(len(ch)):</span>
+        <span class="s2">for </span><span class="s0">j </span><span class="s2">in </span><span class="s0">range(len(ch[</span><span class="s1">0</span><span class="s0">])):</span>
+            <span class="s2">if  </span><span class="s0">ch[i][j] == </span><span class="s1">0</span><span class="s0">:</span>
+                <span class="s2">return </span><span class="s0">(i,j)</span>
+
+    <span class="s2">return None</span>
+
+<span class="s0">print_chart(chart)</span>
+<span class="s0">solve(chart)</span>
+<span class="s0">print()</span>
+<span class="s0">print_chart(chart)</span>
+</pre>
+</body>
+</html>
